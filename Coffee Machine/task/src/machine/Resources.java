@@ -1,11 +1,11 @@
 package machine;
 
 class Resources {
-    private static int waterWeHave = 400; //amount of water, that the coffee machine has for making coffee at the beginning
-    private static int milkWeHave = 540; //amount of milk, that the coffee machine has for making coffee at the beginning
-    private static int beansWeHave = 120; //amount of beans, that the coffee machine has for making coffee at the beginning
-    private static int cupsWeHave = 9; //amount of disposable cups, that the coffee machine has at the beginning
-    private static int moneyWeHave = 550; //amount of money, that the coffee machine has at the beginning
+    private static int waterWeHave = 400; //amount of water, that the coffee machine has for making coffee at the start
+    private static int milkWeHave = 540; //amount of milk, that the coffee machine has for making coffee at the start
+    private static int beansWeHave = 120; //amount of beans, that the coffee machine has for making coffee at the start
+    private static int cupsWeHave = 9; //amount of disposable cups, that the coffee machine has at the start
+    private static int moneyWeHave = 550; //amount of money, that the coffee machine has at the start
 
     public static int getWaterWeHave() {
         return waterWeHave;
@@ -68,7 +68,7 @@ class Resources {
     }
 
 
-    //method displayOfTheCoffeeMachine shows the actual status of ingredients and cash that coffee machine has
+    //method displayOfTheCoffeeMachine shows the actual status of ingredients and money that coffee machine has
     public static void displayOfTheCoffeeMachine() {
         System.out.println("The coffee machine has:");
         System.out.println(getWaterWeHave() + " ml of water");
